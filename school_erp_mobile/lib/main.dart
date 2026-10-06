@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Greenwood International',
+      title: 'WRIO coding school',
       debugShowCheckedModeBanner: false,
       theme: appTheme(),
       home: const SplashScreen(),

@@ -84,7 +84,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
             // School Name
             const Text(
-              "Greenwood International",
+              "WRIO coding school",
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,

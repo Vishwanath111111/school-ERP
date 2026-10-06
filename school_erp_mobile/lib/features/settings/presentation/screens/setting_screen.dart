@@ -23,7 +23,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   }
 
   Future<void> _loadUserSession() async {
-    final email = await SessionManager.getEmail() ?? "parent@greenwood.edu";
+    final email = await SessionManager.getEmail() ?? "parent@wrio.edu";
     setState(() {
       _userEmail = email;
     });
@@ -34,7 +34,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
       context: context,
       builder: (context) => AlertDialog(
         title: const Text("Confirm Sign Out"),
-        content: const Text("Are you sure you want to sign out from Greenwood ERP?"),
+        content: const Text("Are you sure you want to sign out from WRIO ERP?"),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
         actions: [
           TextButton(
@@ -107,7 +107,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                             ),
                           ),
                           const Text(
-                            "Parent Portal User • Greenwood ERP",
+                            "Parent Portal User • WRIO ERP",
                             style: TextStyle(fontSize: 12, color: Colors.grey),
                           ),
                         ],
@@ -205,7 +205,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   ListTile(
                     leading: const Icon(Icons.help_outline, color: AppColors.primary),
                     title: const Text("School Help Desk"),
-                    subtitle: const Text("info@greenwood.edu • +91 98765 00000"),
+                    subtitle: const Text("info@wrio.edu • +91 98765 00000"),
                     trailing: const Icon(Icons.arrow_forward_ios, size: 16),
                     onTap: () {},
                   ),
@@ -237,7 +237,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             const SizedBox(height: 20),
             const Center(
               child: Text(
-                "Greenwood ERP Parent Mobile App v1.0.0",
+                "WRIO ERP Parent Mobile App v1.0.0",
                 style: TextStyle(fontSize: 12, color: Colors.grey),
               ),
             ),

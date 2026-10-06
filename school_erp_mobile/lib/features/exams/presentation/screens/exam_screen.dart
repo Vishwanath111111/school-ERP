@@ -80,7 +80,7 @@ class _ExamScreenState extends State<ExamScreen> {
             children: [
               const Center(
                 child: Text(
-                  "Greenwood International School",
+                  "WRIO coding School",
                   style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: AppColors.primary),
                 ),
               ),

@@ -156,7 +156,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                       ),
                                     ),
                                     const Text(
-                                      "Greenwood International School",
+                                      "WRIO coding School",
                                       style: TextStyle(
                                         fontSize: 12,
                                         color: Colors.grey,

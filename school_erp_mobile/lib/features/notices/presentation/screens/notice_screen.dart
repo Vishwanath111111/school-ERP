@@ -51,7 +51,7 @@ class _NoticeScreenState extends State<NoticeScreen> {
     NoticeItem(
       id: 3,
       title: 'Independence Day Flag Hoisting Ceremony',
-      content: 'Greenwood School will celebrate the 79th Independence Day on August 15, 2026. Flag hoisting ceremony begins promptly at 08:00 AM. Attendance is mandatory for staff and student council members.',
+      content: 'WRIO School will celebrate the 79th Independence Day on August 15, 2026. Flag hoisting ceremony begins promptly at 08:00 AM. Attendance is mandatory for staff and student council members.',
       category: 'EVENT',
       audience: 'ALL',
       publishDate: '08 Aug 2026',

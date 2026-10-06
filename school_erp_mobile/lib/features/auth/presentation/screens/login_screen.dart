@@ -61,7 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     const SizedBox(height: 16),
                     Text(
-                      "Greenwood International",
+                      "WRIO coding school",
                       style: AppStyles.heading1.copyWith(
                         color: Colors.white,
                         fontSize: 24,
